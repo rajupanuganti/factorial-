@@ -7,3 +7,13 @@ for i in range(n):
     arr.append(x)
 
 print(arr)
+
+vals = int(input('enter search  value '))
+k = 0
+for e in arr:
+    if e==vals:
+        print(k)
+        break
+    k+=1
+
+print(arr.index(vals))
